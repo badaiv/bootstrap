@@ -2,7 +2,7 @@
 
 # kubectl-prompt
 autoload -U colors; colors
-source /opt/homebrew/etc/zsh-kubectl-prompt/kubectl.zsh
+source /usr/local/etc/zsh-kubectl-prompt/kubectl.zsh
 function right_prompt() {
   local color="white"
 

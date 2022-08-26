@@ -6,7 +6,7 @@ install_brew() {
         # install homebrew
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         # set path
-        eval "$(/opt/homebrew/bin/brew shellenv)"
+        eval "$(/usr/local/bin/brew shellenv)"
     fi
 
     sudo softwareupdate --install-rosetta
