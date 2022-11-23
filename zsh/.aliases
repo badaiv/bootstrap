@@ -12,6 +12,7 @@ alias dit="docker run -it --rm"
 
 # terraform
 alias tf="terraform"
+alias tfs="tf-summarize"
 
 alias g="git"
 
