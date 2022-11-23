@@ -51,7 +51,6 @@ brew "stow"
 brew "midnight-commander"
 brew "chroma"
 
-brew "temurin11" #jdk11
 brew "node"
 brew "n"
 brew "ruby"
@@ -84,6 +83,7 @@ brew "minikube"
 brew "hyperkit"
 brew "docker"
 
+cask "temurin11"
 cask "google-cloud-sdk"
 #cask "1password"
 #cask "alfred"
