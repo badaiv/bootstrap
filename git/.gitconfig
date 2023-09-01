@@ -5,6 +5,7 @@
   excludesfile = ~/.gitignore
   ignorecase = false
   abbrev = 12
+  autocrlf = input
 [alias]
   l  = log --graph --oneline --decorate
   ld = log --graph --pretty=format:'%C(yellow)%h%C(bold white red)%d%Creset %s %C(bold green)%cr %Creset%C(white)%an' --abbrev-commit --date=relative
@@ -95,3 +96,8 @@
 	repo = /Users/vbadai/git/zsh-hist
 	repo = /Users/vbadai/git/zsh-snap
 	repo = /Users/vbadai/git/zsh-syntax-highlighting
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
