@@ -278,6 +278,10 @@ alias dots="cd ~/bootstrap"
 # python
 alias pip="pip3"
 
+# ansible
+alias ap="ansible-playbook"
+alias an="ansible"
+
 ## make a pdf
 #alias mergepdf="/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py"
 #
