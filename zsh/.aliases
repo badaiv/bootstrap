@@ -282,6 +282,7 @@ alias pip="pip3"
 alias ap="ansible-playbook"
 alias an="ansible"
 
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 ## make a pdf
 #alias mergepdf="/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py"
 #
