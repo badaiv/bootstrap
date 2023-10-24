@@ -8,9 +8,9 @@ export PATH="/usr/local/sbin:$PATH"
 HISTSIZE=50000
 SAVEHIST=10000
 
-# brew
-export PATH="/opt/homebrew/sbin:$PATH"
-export PATH="/opt/homebrew/bin:$PATH"
+# todo brew Apple chip
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 source ~/.zinit.sh
 

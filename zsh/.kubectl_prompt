@@ -2,7 +2,11 @@
 
 # kubectl-prompt
 autoload -U colors; colors
-source /opt/homebrew/etc/zsh-kubectl-prompt/kubectl.zsh
+#TODO Apple chip
+# set case for
+#$ uname -m
+#x86_64
+source /usr/local/etc/zsh-kubectl-prompt/kubectl.zsh
 function right_prompt() {
   local color="white"
 

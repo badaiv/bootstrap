@@ -5,11 +5,11 @@ install_brew() {
         printf "Homebrew not found, installing."
         # install homebrew
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        # set path
-        eval "$(/opt/homebrew/bin/brew shellenv)"
+        # todo set path Apple Chip
+        eval "$(/usr/local/bin/brew shellenv)"
     fi
-
-    sudo softwareupdate --install-rosetta
+		# todo Apple Chip
+#    sudo softwareupdate --install-rosetta # Rosetta is a translation process that allows users to run apps that contain x86_64 instructions on Apple silicon
 
     printf "Installing homebrew packages..."
     brew bundle
@@ -55,15 +55,15 @@ install_brew
 printf "== Installing extra packages"
 printf "\n"
 chmod +x extra.sh
-./extra.sh
+#./extra.sh
 
 printf "== Setting macOS preferences"
 printf "\n"
 ./macos/.macos
 
-#printf "== Setting zsh as default shell"
-#printf "\n"
-#chsh -s "$(which zsh)"
+printf "== Setting zsh as default shell"
+printf "\n"
+chsh -s "$(which zsh)"
 
 #printf "== Setting Python to 3.10"
 #printf "\n"
