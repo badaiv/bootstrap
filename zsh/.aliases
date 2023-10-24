@@ -7,6 +7,9 @@
 # 	alias git=$hub_path
 # fi
 
+# macos hacks
+alias ifrestart="sudo ifconfig en0 down && sudo ifconfig en0 up"
+
 # docker
 alias dit="docker run -it --rm"
 
@@ -267,6 +270,8 @@ alias reload="source ~/.zshrc"
 alias cat="ccat"
 
 # commonly used dirs
+alias meta="cd ~/dev/metaphysic"
+alias cdansible="cd ~/dev/metaphysic/infra-interstellar/legacy/ansible"
 alias dev="cd ~/dev"
 alias work="cd ~/dev/work"
 alias desk="cd ~/desktop"
