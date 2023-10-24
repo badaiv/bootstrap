@@ -8,6 +8,7 @@ export PATH="/usr/local/sbin:$PATH"
 HISTSIZE=50000
 SAVEHIST=10000
 
+# todo Apple Chip
 # brew
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"

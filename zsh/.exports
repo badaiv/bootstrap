@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# todo Apple Chip
 # add ~/bin to path
 PATH=/usr/bin:/bin:/usr/sbin:/sbin
 PATH=/usr/local/bin:/usr/local/sbin:"$PATH"
@@ -14,6 +15,7 @@ export LANG="en_US"
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty)
 
+# todo Apple Chip
 # brew
 PATH=$PATH:/opt/homebrew/bin
 
@@ -46,8 +48,9 @@ export RIPGREP_CONFIG_PATH=$HOME/.rgrc
 export PATH="/usr/local/opt/util-linux/bin:$PATH"
 export PATH="/usr/local/opt/util-linux/sbin:$PATH"
 
+# todo do we need it?
 # curl
-export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+#export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 
 # pyenv
 export PYENV_SHELL=zsh

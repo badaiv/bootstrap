@@ -2,6 +2,7 @@
 
 # kubectl-prompt
 autoload -U colors; colors
+# todo Apple Chip
 source /opt/homebrew/etc/zsh-kubectl-prompt/kubectl.zsh
 function right_prompt() {
   local color="white"
