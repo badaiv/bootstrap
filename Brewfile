@@ -7,6 +7,7 @@ tap "homebrew/cask-versions"
 # tap "superbrothers/zsh-kubectl-prompt"
 tap "blendle/blendle"
 tap "homebrew/command-not-found"
+tap "hashicorp/tap"
 
 cask_args appdir: "/Applications"
 
@@ -133,3 +134,5 @@ cask "viber"
 cask "evernote"
 cask "commander-one"
 cask "maccy"
+cask "hashicorp-vagrant"
+cask "vagrant-vmware-utility"
