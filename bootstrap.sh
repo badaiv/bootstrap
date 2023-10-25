@@ -85,10 +85,10 @@ printf "\n"
 ## install and use node lts
 #n lts
 
-#printf "== Installing vim-plug"
-#printf "\n"
-#curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-#    	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+printf "== Installing vim-plug"
+printf "\n"
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 printf "== Stowing dotfiles"
 printf "\n"
