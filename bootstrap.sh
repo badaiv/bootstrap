@@ -63,9 +63,10 @@ printf "== Setting macOS preferences"
 printf "\n"
 ./macos/.macos
 
-#printf "== Setting zsh as default shell"
-#printf "\n"
-#chsh -s "$(which zsh)"
+printf "== Setting zsh as default shell"
+printf "\n"
+chsh -s "$(which zsh)"
+sudo chsh -s "$(which zsh)"
 
 #printf "== Setting Python to 3.10"
 #printf "\n"
