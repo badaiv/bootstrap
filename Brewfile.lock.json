@@ -26,10 +26,13 @@
         "revision": "3a868e95ed77025c927cef974c057833b3d5523f"
       },
       "homebrew/cask-versions": {
-        "revision": "a8dc7483614a08977947e9a068e911ad6709de50"
+        "revision": "c2f793b4fced2e131e40448b2cce480113f52b50"
       },
       "homebrew/command-not-found": {
         "revision": "036375f2aacfd9f593ca54e5f4f85164ccb46b70"
+      },
+      "hashicorp/tap": {
+        "revision": "07e686fc0100bf657bf28e905cdb6c2fc3df3b20"
       }
     },
     "brew": {
@@ -2498,45 +2501,45 @@
         }
       },
       "awscli": {
-        "version": "2.13.28",
+        "version": "2.13.29",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_sonoma": {
               "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:93fe7c79fdf0b71b10804ae713edfd7d2e520199bfe247cb30fef5b6021ef660",
-              "sha256": "93fe7c79fdf0b71b10804ae713edfd7d2e520199bfe247cb30fef5b6021ef660"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:41086d1f548d625cac821b6c4e1ae49697cf7b966d890645a8a501bd1cd24774",
+              "sha256": "41086d1f548d625cac821b6c4e1ae49697cf7b966d890645a8a501bd1cd24774"
             },
             "arm64_ventura": {
               "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:f4bec819c192c52ef05faefe29fa68a03a39ab7838b1c57c3d47d9f69bb47608",
-              "sha256": "f4bec819c192c52ef05faefe29fa68a03a39ab7838b1c57c3d47d9f69bb47608"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:0ed18eb34c9049b91b951a5adeaa79c859897e0f17c695cab0e48c97b2b93843",
+              "sha256": "0ed18eb34c9049b91b951a5adeaa79c859897e0f17c695cab0e48c97b2b93843"
             },
             "arm64_monterey": {
               "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:c10a1ae5a43d4b2187ea1a1feeeecf8bb46640d35e704a60f6e6e0e939feb148",
-              "sha256": "c10a1ae5a43d4b2187ea1a1feeeecf8bb46640d35e704a60f6e6e0e939feb148"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:0bfa8384628c3bae84ecf92d4feab72e12c0794e963db8f94ac5c2fa26f2471b",
+              "sha256": "0bfa8384628c3bae84ecf92d4feab72e12c0794e963db8f94ac5c2fa26f2471b"
             },
             "sonoma": {
               "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:eff231ded50b1af3dc65b76a01b3a0c127993aee8c72c88631c52a4feea797cb",
-              "sha256": "eff231ded50b1af3dc65b76a01b3a0c127993aee8c72c88631c52a4feea797cb"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:6f84250a87828295b6b87a2440561a6f01fa43c29e3f5939026abc3054e7660f",
+              "sha256": "6f84250a87828295b6b87a2440561a6f01fa43c29e3f5939026abc3054e7660f"
             },
             "ventura": {
               "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:5503c21e3f762269377aea62c3652a4985e59470f10d2d693af775b85048ed3b",
-              "sha256": "5503c21e3f762269377aea62c3652a4985e59470f10d2d693af775b85048ed3b"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:5fd0841ed95566f0fe5413998baf6fbd60defce653e6583345c7cfd39ee340e8",
+              "sha256": "5fd0841ed95566f0fe5413998baf6fbd60defce653e6583345c7cfd39ee340e8"
             },
             "monterey": {
               "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:6d65c37fdb2f9581195fbf9d935aef4a9ffc4cf4073ddcb9fa74dd05317854d2",
-              "sha256": "6d65c37fdb2f9581195fbf9d935aef4a9ffc4cf4073ddcb9fa74dd05317854d2"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:7ff3d63731976e2325219e3e9633644b77101e84fcd5ae276db400e6b16764f8",
+              "sha256": "7ff3d63731976e2325219e3e9633644b77101e84fcd5ae276db400e6b16764f8"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:062ee2c19bfa81fc89fc4f00c7afacbb744c18db472373b5977e784f8123c8d5",
-              "sha256": "062ee2c19bfa81fc89fc4f00c7afacbb744c18db472373b5977e784f8123c8d5"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:8e59c4faa63175040ba8a36810f51612a0d517986cdcb53cf953fb7920b9c04b",
+              "sha256": "8e59c4faa63175040ba8a36810f51612a0d517986cdcb53cf953fb7920b9c04b"
             }
           }
         }
@@ -3637,7 +3640,7 @@
         }
       },
       "whatsapp": {
-        "version": "2.23.20.81",
+        "version": "2.23.21.79",
         "options": {
           "full_name": "whatsapp",
           "args": {
@@ -3646,7 +3649,7 @@
         }
       },
       "google-cloud-sdk": {
-        "version": "452.0.0",
+        "version": "452.0.1",
         "options": {
           "full_name": "google-cloud-sdk",
           "args": {
@@ -3727,7 +3730,7 @@
         }
       },
       "intellij-idea-ce": {
-        "version": "2023.2.3,232.10072.27",
+        "version": "2023.2.4,232.10203.10",
         "options": {
           "full_name": "intellij-idea-ce",
           "args": {
@@ -3754,7 +3757,7 @@
         }
       },
       "google-drive": {
-        "version": "83.0.1",
+        "version": "83.0.2",
         "options": {
           "full_name": "google-drive",
           "args": {
@@ -3808,7 +3811,7 @@
         }
       },
       "evernote": {
-        "version": "10.64.4,20231024105232,c3d2aae3f25298b412bbe37f45b546c6d0f1131d",
+        "version": "10.64.5,20231025132339,2e9f9e9fff0ed89235a8a0553fb106e7719a867d",
         "options": {
           "full_name": "evernote",
           "args": {
@@ -3829,6 +3832,33 @@
         "version": "0.28.0",
         "options": {
           "full_name": "maccy",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "hashicorp-vagrant": {
+        "version": "2.4.0",
+        "options": {
+          "full_name": "hashicorp-vagrant",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "vagrant-vmware-utility": {
+        "version": "1.0.22",
+        "options": {
+          "full_name": "vagrant-vmware-utility",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "tailscale": {
+        "version": "1.50.1",
+        "options": {
+          "full_name": "homebrew/cask/tailscale",
           "args": {
             "appdir": "/Applications"
           }
