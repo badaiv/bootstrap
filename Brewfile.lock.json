@@ -26,7 +26,7 @@
         "revision": "3a868e95ed77025c927cef974c057833b3d5523f"
       },
       "homebrew/cask-versions": {
-        "revision": "c2f793b4fced2e131e40448b2cce480113f52b50"
+        "revision": "e9f5f8710480f483917e138eae1485bc9889d38e"
       },
       "homebrew/command-not-found": {
         "revision": "036375f2aacfd9f593ca54e5f4f85164ccb46b70"
@@ -3236,55 +3236,45 @@
         }
       },
       "chroma": {
-        "version": "2.9.1",
+        "version": "2.10.0",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:ad1931cc3cee5f242388c3439cd8b6635ed7af33c96b6008e3a459197aa60597",
-              "sha256": "ad1931cc3cee5f242388c3439cd8b6635ed7af33c96b6008e3a459197aa60597"
+              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:8567e1263b0380a31507572be138250504cd711a68e71a47ec5dd8f32bed43d3",
+              "sha256": "8567e1263b0380a31507572be138250504cd711a68e71a47ec5dd8f32bed43d3"
             },
             "arm64_ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:ad1931cc3cee5f242388c3439cd8b6635ed7af33c96b6008e3a459197aa60597",
-              "sha256": "ad1931cc3cee5f242388c3439cd8b6635ed7af33c96b6008e3a459197aa60597"
+              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:8567e1263b0380a31507572be138250504cd711a68e71a47ec5dd8f32bed43d3",
+              "sha256": "8567e1263b0380a31507572be138250504cd711a68e71a47ec5dd8f32bed43d3"
             },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:ad1931cc3cee5f242388c3439cd8b6635ed7af33c96b6008e3a459197aa60597",
-              "sha256": "ad1931cc3cee5f242388c3439cd8b6635ed7af33c96b6008e3a459197aa60597"
-            },
-            "arm64_big_sur": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:ad1931cc3cee5f242388c3439cd8b6635ed7af33c96b6008e3a459197aa60597",
-              "sha256": "ad1931cc3cee5f242388c3439cd8b6635ed7af33c96b6008e3a459197aa60597"
+              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:8567e1263b0380a31507572be138250504cd711a68e71a47ec5dd8f32bed43d3",
+              "sha256": "8567e1263b0380a31507572be138250504cd711a68e71a47ec5dd8f32bed43d3"
             },
             "sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:9be440f448f1c417a0aa906196baf1b594dd188040ae729b00ac67f20c0c5b3b",
-              "sha256": "9be440f448f1c417a0aa906196baf1b594dd188040ae729b00ac67f20c0c5b3b"
+              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:2695dd04c74ab0235c5bf143f1dab56f5874fd2825785060d22a5df921c20359",
+              "sha256": "2695dd04c74ab0235c5bf143f1dab56f5874fd2825785060d22a5df921c20359"
             },
             "ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:9be440f448f1c417a0aa906196baf1b594dd188040ae729b00ac67f20c0c5b3b",
-              "sha256": "9be440f448f1c417a0aa906196baf1b594dd188040ae729b00ac67f20c0c5b3b"
+              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:2695dd04c74ab0235c5bf143f1dab56f5874fd2825785060d22a5df921c20359",
+              "sha256": "2695dd04c74ab0235c5bf143f1dab56f5874fd2825785060d22a5df921c20359"
             },
             "monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:9be440f448f1c417a0aa906196baf1b594dd188040ae729b00ac67f20c0c5b3b",
-              "sha256": "9be440f448f1c417a0aa906196baf1b594dd188040ae729b00ac67f20c0c5b3b"
-            },
-            "big_sur": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:9be440f448f1c417a0aa906196baf1b594dd188040ae729b00ac67f20c0c5b3b",
-              "sha256": "9be440f448f1c417a0aa906196baf1b594dd188040ae729b00ac67f20c0c5b3b"
+              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:2695dd04c74ab0235c5bf143f1dab56f5874fd2825785060d22a5df921c20359",
+              "sha256": "2695dd04c74ab0235c5bf143f1dab56f5874fd2825785060d22a5df921c20359"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:8c8df59e579146e45f46a0e8c6782e9197f591b69074da7e1e776fb25d6ccbfd",
-              "sha256": "8c8df59e579146e45f46a0e8c6782e9197f591b69074da7e1e776fb25d6ccbfd"
+              "url": "https://ghcr.io/v2/homebrew/core/chroma/blobs/sha256:1a1e1bed4e3f8f7ab82710771cc8cc8311623472be04f91f1b983a14e7deb9fd",
+              "sha256": "1a1e1bed4e3f8f7ab82710771cc8cc8311623472be04f91f1b983a14e7deb9fd"
             }
           }
         }
@@ -3612,15 +3602,6 @@
           }
         }
       },
-      "muzzle": {
-        "version": "1.9,426",
-        "options": {
-          "full_name": "muzzle",
-          "args": {
-            "appdir": "/Applications"
-          }
-        }
-      },
       "notion": {
         "version": "2.2.4",
         "options": {
@@ -3859,6 +3840,24 @@
         "version": "1.50.1",
         "options": {
           "full_name": "homebrew/cask/tailscale",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "pomotroid": {
+        "version": "0.13.0",
+        "options": {
+          "full_name": "pomotroid",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "input-source-pro": {
+        "version": "2.4.7-beta",
+        "options": {
+          "full_name": "input-source-pro",
           "args": {
             "appdir": "/Applications"
           }
