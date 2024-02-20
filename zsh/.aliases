@@ -12,6 +12,14 @@ alias sudo="sudo -EH"
 # macos hacks
 alias ifrestart="sudo ifconfig en0 down && sudo ifconfig en0 up"
 
+# ssh stuff
+alias ssh-k="ssh-keygen" # ssh-k -R to remove keys from known_hosts
+
+# vpn
+alias vpn-start="sudo brew services start openfortivpn"
+alias vpn-restart="sudo brew services restart openfortivpn"
+alias vpn-stop="sudo brew services stop openfortivpn"
+
 # docker
 alias dit="docker run -it --rm"
 
@@ -274,6 +282,7 @@ alias cat="ccat"
 # commonly used dirs
 alias meta="cd ~/dev/metaphysic"
 alias cdansible="cd ~/dev/metaphysic/infra-interstellar/legacy/ansible"
+alias cdadmr="cd ~/dev/metaphysic/infra-interstellar/ansible/admr"
 alias dev="cd ~/dev"
 alias work="cd ~/dev/work"
 alias desk="cd ~/desktop"
