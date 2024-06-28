@@ -55,6 +55,7 @@ brew "midnight-commander"
 brew "chroma"
 brew "curl"
 brew "watch"
+brew "graphviz" # for diagrams https://diagrams.mingrammer.com/docs/getting-started/installation
 
 brew "node"
 brew "n"
@@ -72,6 +73,7 @@ brew "poetry"
 
 #brew "mysql"
 #brew "redis"
+brew "libpq"
 
 brew "helm"
 brew "kubernetes-cli"
@@ -94,8 +96,9 @@ brew "derailed/k9s/k9s"
 #brew "fluxcd/tap/flux"
 brew "ncdu"
 
-brew "openfortivpn"
+#brew "openfortivpn"
 brew "hudochenkov/sshpass/sshpass"
+brew "hashicorp/tap/packer"
 
 cask "iterm2"
 #cask "temurin11"

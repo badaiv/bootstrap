@@ -9,6 +9,8 @@
 
 alias sudo="sudo -EH"
 
+alias pu="pulumi"
+
 # macos hacks
 alias ifrestart="sudo ifconfig en0 down && sudo ifconfig en0 up"
 
@@ -284,7 +286,7 @@ alias meta="cd ~/dev/metaphysic"
 alias cdansible="cd ~/dev/metaphysic/infra-interstellar/legacy/ansible"
 alias cdadmr="cd ~/dev/metaphysic/infra-interstellar/ansible/admr"
 alias dev="cd ~/dev"
-alias work="cd ~/dev/work"
+alias clm="cd ~/dev/clm"
 alias desk="cd ~/desktop"
 alias docs="cd ~/documents"
 alias dl="cd ~/downloads"
