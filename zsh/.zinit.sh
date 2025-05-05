@@ -43,6 +43,7 @@ zinit snippet OMZP::extract
 zinit snippet OMZP::brew
 #zinit snippet OMZP::gcloud
 zinit snippet OMZP::command-not-found
+zinit snippet OMZP::timer
 
 # ice svn to load full dir if there are several files
 zinit ice svn
@@ -61,3 +62,7 @@ ZSH_COLORIZE_CHROMA_FORMATTER=terminal256
 ZSH_COLORIZE_STYLE="dracula"
 
 # zinit snippet OMZP::
+
+zi ice as"completion"
+zi snippet OMZP::docker/completions/_docker
+zinit snippet OMZP::docker

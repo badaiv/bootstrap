@@ -10,6 +10,7 @@
 alias sudo="sudo -EH"
 
 alias pu="pulumi"
+alias history="history -E"
 
 # macos hacks
 alias ifrestart="sudo ifconfig en0 down && sudo ifconfig en0 up"
@@ -132,8 +133,8 @@ alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
 ## k8s
-#alias ktx="kubectx"
-#
+alias ktx="kubectx"
+
 ####
 ## coreutils
 ####
@@ -279,7 +280,8 @@ alias vi="vim"
 alias reload="source ~/.zshrc"
 
 # use ccat
-alias cat="ccat"
+# todo test
+#alias cat="ccat"
 
 # commonly used dirs
 alias meta="cd ~/dev/metaphysic"
@@ -375,27 +377,6 @@ take() {
 }
 alias tk="take"
 
-# change dir
-up() {
-	local cdir="$(pwd)"
-	if [[ "${1}" == "" ]]; then
-		cdir="$(dirname) "${cdir}")"
-	elif ! [[ "${1}" =~ ^[0-9]+$ ]]; then
-		echo "🛂  Arg must be a number"
-	elif ! [[ "${1}" -gt "0" ]]; then
-		echo "a POSITIVE number"
-	else
-		for i in {1..${1}}; do
-			local ncdir="$(dirname "${cdir}")"
-			if [[ "${cdir}" == "${ncdir}" ]]; then
-				break
-			else
-				cdir="${ncdir}"
-			fi
-		done
-	fi
-	cd "${cdir}"
-}
 
 ## animated gifs from any video
 ## https://gist.github.com/SlexAxton/4989674
